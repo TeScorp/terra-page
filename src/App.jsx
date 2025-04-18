@@ -14,17 +14,15 @@ import Skill from "./components/Skill";
 import Work from "./components/Work";
 
 const App = () => {
-
   useGSAP(() => {
-
     const elements = gsap.utils.toArray(".reveal-up");
 
     elements.forEach((element) => {
       gsap.to(element, {
         scrollTrigger: {
-          trigger: element,          
-          start: '-200 bottom',
-          end: 'bottom 80%',
+          trigger: element,
+          start: "-200 bottom",
+          end: "bottom 80%",
           scrub: true,
         },
         y: 0,
