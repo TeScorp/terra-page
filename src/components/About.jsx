@@ -1,3 +1,6 @@
+import logo from '/images/logo.svg'
+
+
 const aboutItems = [
   {
     label: "Project done",
@@ -39,7 +42,7 @@ const About = () => {
             ))}
 
             <img
-              src="/images/logo.svg"
+              src={logo}
               alt="Logo"
               width={30}
               height={30}

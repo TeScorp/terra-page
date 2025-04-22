@@ -1,3 +1,6 @@
+import avatar from "/images/avatar-1.jpg";
+import hero from "/images/hero-banner.png";
+
 import { ButtonOutline, ButtonPrimary } from "./Button";
 
 const Hero = () => {
@@ -8,7 +11,7 @@ const Hero = () => {
           <div className="flex items-center gap-3">
             <figure className="img-box w-9 h-9 rounded-lg">
               <img
-                src="/images/avatar-1.jpg"
+                src={avatar}
                 width={40}
                 height={40}
                 alt="Terra Sarr portrait"
@@ -44,7 +47,7 @@ const Hero = () => {
         <div className="hidden lg:block">
           <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to 65% rounded-[60px] overflow-hidden">
             <img
-              src="/images/hero-banner.png"
+              src={hero}
               width={656}
               height={800}
               alt="Terra Sarr"
