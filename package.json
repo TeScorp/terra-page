@@ -7,11 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
-  "homepage": "https://TeScorp.github.io/terra-page",
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "gsap": "^3.12.7",
